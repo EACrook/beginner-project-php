@@ -11,7 +11,7 @@
                     <input type="text" name="mail" placeholder="Email">
                     <input type="password" name="pwd" placeholder="Password">
                     <input type="password" name="pwd-confirm" placeholder="Confirm Password">
-                    <button type="submit" class="btn  btn-dark">Signup</button>
+                    <button type="submit" name="signup-submit" class="btn  btn-dark">Signup</button>
                 </form>
             </div>
         </div>
