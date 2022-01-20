@@ -21,7 +21,7 @@ if(isset($_POST['signup-submit'])) {
         header("Location: ../signup.php?error=invalidmail&uid=".$username);
         exit();
     } elseif(!preg_match("/^[a-zA-Z0-9]*$/", $username)) {
-        header("Location: ../signup.php?error=invaliduid&&mail=".$email);
+        header("Location: ../signup.php?error=invaliduid&mail=".$email);
         exit();
     }
     elseif($password !== $passwordConfirm) {
